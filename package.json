@@ -1,0 +1,31 @@
+{
+	"name": "sprint-challenge-node-express",
+	"version": "1.0.0",
+	"description": "Please open the `Review.md` file and answer the questions.",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js --exec babel-node"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/finlie/Sprint-Challenge-Node-Express.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/finlie/Sprint-Challenge-Node-Express/issues"
+	},
+	"homepage": "https://github.com/finlie/Sprint-Challenge-Node-Express#readme",
+	"dependencies": {
+		"express": "^4.16.3",
+		"helmet": "^3.12.0",
+		"knex": "^0.14.6",
+		"sqlite3": "^4.0.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"nodemon": "^1.17.3"
+	}
+}
